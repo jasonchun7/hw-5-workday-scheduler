@@ -17,21 +17,16 @@ textarea {
   padding: 10px;
 }
 
-p {
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-
-div {
-  display: block;
-}
-
 .jumbotron {
   text-align: center;
-  background-color: transparent;
+  background-color:rgb(225, 225, 255);
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
+}
+
+#currentDay {
+  color:rgb(4, 8, 248);
 }
 
 .description {
@@ -47,16 +42,13 @@ div {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
 }
 
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  border-bottom: 1px dashed #000000;
   border-right: 1px solid #000000;
 }
 
@@ -71,17 +63,18 @@ div {
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #02bd02;
   color: white;
-  border: 1px solid #000000;
+  /* border: 1px solid #000000; */
 }
 
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
-  color: white;
+  background-color: #0019fa;
+  color: rgb(166, 224, 228);
+  
 }
 
 .saveBtn i:hover {
