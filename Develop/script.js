@@ -1,5 +1,5 @@
 // current day displayed using moment.js
-$('#currentDay').text(moment().format('dddd, MMMM Mo'));
+$('#currentDay').text(moment().format('dddd MMMM Do'));
 
 // variable for save button for click function
 var saveBtn = $('.saveBtn');
